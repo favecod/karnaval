@@ -22,7 +22,6 @@ const Card = ({data}) => {
     }
     const handleLink = () => {
         history.push(`/place/${data.index}`)
-        console.log(history)
     }
     return (
         <div onClick={handleLink} className={styles.card}>

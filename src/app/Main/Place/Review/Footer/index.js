@@ -13,12 +13,9 @@ const Footer = props => {
     const [text, setText] = React.useState(null)
     React.useEffect(() => {
         if (!text && props.subtitle) {
-            console.log(props.subtitle)
             setText(props.subtitle.split('/'))
         }
     })
-    const name = 'بهاره فلاح'
-    const job = 'نویسنده ارشد کارناوال'
     const like = '18'
     const dislike = '14'
     return (

@@ -14,7 +14,6 @@ const Header = props => {
     const [text, setText] = React.useState(null)
     React.useEffect(() => {
         if (!text && props.subtitle){
-            console.log(props.subtitle)
             setText(props.subtitle.split('/'))
         }
     })
