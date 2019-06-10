@@ -17,14 +17,14 @@ const Logo = () => {
 
     
     return (
-        <>
+        <Link to='/'>
         {logo ?
-            <Link to='/'>
+            
                 <img className={styles.logo} src={logo} />
-            </Link>
+            
         :
-        <Skeleton/>}
-        </>
+        <Skeleton width={150} height={70}/>}
+        </Link>
     )
 }
 

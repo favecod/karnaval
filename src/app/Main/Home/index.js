@@ -6,6 +6,7 @@ import Banner from './Banner'
 import Navbar from './Navbar'
 import Cards from './Cards'
 import Features from './Features'
+import { apiURL,headers } from 'Root/config'
 
 const Home = () => {
     return <>
