@@ -1,0 +1,25 @@
+/* Google Sans */
+@font-face {
+    font-family: IRANSans;
+    src: url(fonts/IRANSansWeb/ttf/IRANSansWeb_Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: IRANSans;
+    src: url(fonts/IRANSansWeb/ttf/IRANSansWeb.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: IRANSans;
+    src: url(fonts/IRANSansWeb/ttf/IRANSansWeb_Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: IRANSans;
+    src: url(fonts/IRANSansWeb/ttf/IRANSansWeb_Light.ttf);
+    font-weight: 100;
+}
+
